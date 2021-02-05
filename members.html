@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TEAM74LS193-BLOCKCHAIN</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">TOP</i></button>
+
+    <style>
+    
+    #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 10px;
+        right: 43px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: rgba(226, 96, 21, 0.329);
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+    
+    #myBtn:hover {
+      background-color: #555;
+    }
+    </style>
+    
+    
+    <script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
+    
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+    </script>
+
+<style>
+    .accordion {
+      background-color: rgb(170, 170, 170);
+      color: rgb(35, 14, 231);
+      cursor: pointer;
+      padding: 18px;
+      width: 100%;
+      border: none;
+      text-align: left; 
+      outline: none;
+      font-size: 15px;
+      transition: 0.4s;
+    }
+    
+    .active, .accordion:hover {
+      background-color: #ccc; 
+    }
+    
+    .panel {
+      padding: 0 18px;
+      display: none;
+      background-color: white;
+      overflow: hidden;
+    }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-light bg-light stickt-top">
+        <div class="container-fluid">
+             <a href="#" class="navbar-brand">
+               <img src="./img/bklogo.png">
+             </a>
+             <div class="collapse navbar-collapse" id="navbarMenu">
+               <ul class="navbar-nav ml-auto">
+                 <li class="nav-item"> <a href="index.html" class="nav-link">INTRO</a> </li>
+                 <li class="nav-item"> <a href="origin.html"  class="nav-link">ORIGIN</a> </li>
+                 <li class="nav-item">  <a href="history.html"  class="nav-link">HISTORY</a> </li>
+                 <li class="nav-item">  <a href="application.html" class="nav-link">APPLICATION</a> </li>
+                 <li class="nav-item"><a href="future.html" class="nav-link">FUTURE</a> </li>
+                 <li class="nav-item"><a class="nav-link active">MEMBERS</a> </li>
+                </ul>  
+             </div>
+        </div> 
+         </nav>
+    <main class="container-fluid">
+        <div class="row padding">
+            <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> <center><h1>THÔNG TIN VỀ THÀNH VIÊN</h1></center></div>
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card bg-info text-white">
+                   <center> <h3>LÊ VĂN LÂM</h3></center>
+                    <h5>MSSV: 2013596</h5>
+                    <img src="./img/lamidol.jpg" style="height: 400px;">
+                    <p>Phụ trách code web.</p>
+                </div>
+            </div>
+            
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card bg-info text-white">
+                    <center><h3>LÊ TRÍ NGUYÊN</h3></center>
+                    <h5>MSSV: 2013913 </h5>
+                    <img src="./img/nguyen.jpg">
+                    <p>Phụ trách latex.</p>
+                
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card bg-info text-white">
+                   <center> <h3>ĐOÀN THẢO NHI</h3></center>
+                    <h5>MSSV: 2014010 </h5>
+                    <figure><img src="./img/nhi.jpg"></figure>
+                    <p>Phụ trách latex.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-md-6 col-lg-3 col-xl-3">
+                <div class="card bg-info text-white">
+                   <center> <h3>NGUYỄN THÀNH TUÂN</h3></center>
+                    <h5>MSSV: 2014931</h5>
+                   <figure> <img src="./img/devvv.png" style="width: 80%"></figure>
+                   <p> Phụ trách viết code web.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+   <hr style="  border-top: 2px solid rgb(146, 146, 146);">
+  <div class="container">
+    <div class="row padding">
+            <div class="col-12"> <center><h1>HƯỚNG DẪN TẠO WEBSITE</h1></center></div>
+
+            <button class="accordion">TẠO HOST VÀ TÊN  MIỀN</button>
+            <div class="panel">
+                      <h>Ở đây chúng ta sẽ host bằng GITHUB</h>
+                    <p>Bước 1: Tải Github Desktop tại trang <a href="https://desktop.github.com/">https://desktop.github.com/</a></p>
+                    <p>Bước 2: Đăng nhập nếu không có thì đăng ký tài khoản.</p>
+                    <p>Bước 3: Sau đó bắt đầu tạo WEBSITE mới: <b>FILE - New repository</b> hoặc <b>Ctrl + N</b>. </p>
+                    <p>Bước 4: Nhập tên miền và chọn nơi lưu trữ</p>
+                    <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9"> <figure><img src="./img/buoc3.png"></figure></div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+                    <p>Bước 5: Di chuyển file của bạn vào địa chỉ mà bạn chọn lưu ở trên </p>
+                    <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9"> <figure><img src="./img/buoc4.jpg"></figure></div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+                    <p>Bước 6: Sau đó ta thấy file của bạn hiện ở bảng, đặt tên và chọn <b>Commit to main</b></p>
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12"> <figure><img src="./img/commit.jpg"></figure></div>
+                    <p>Bước 7: Sau đó Publish lên trang chủ Github.com (tắt private nếu bạn ko có Pro account) và phải có file <b>index.html</b> để làm trang chủ</p> 
+                    <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9"> <figure><img src="./img/buoc6.jpg"></figure></div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+                    <p> Bước 8: Đăng nhập tài khoản vào trang <a href="https://github.com/">https://github.com/</a>. Vào mục Your repositories và click vào mục mà bạn đã publish lên.</p>
+                    <p> Bước 9: Click vô <b>SETTING - GITHUBPAGES</b> chọn <b>main</b> và <b>save</b>. Kết quả đường Link hiện ra là trang web của bạn</p>
+                    <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9"> <figure><img src="./img/buoccuoi.png"></figure></div>
+                    <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3"></div>
+            </div>
+            
+            
+            <button class="accordion">Hướng dẫn sử dụng công cụ Bootstrap 4 <i class="fas fa-bold"></i></button>
+            <div class="panel">
+                  <p>Ta chèn các thẻ sau vào phần <b>Head</b> HMTL</p>
+                  <p>&lt;link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"&gt;</p>
+                  <p>&lt;script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"&gt;&lt;&#47;script&gt;</p>
+                  <p>&lt;script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"&gt;&lt;&#47;script&gt;</p>
+                  <p>&lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"&gt;&lt;&#47;script&gt;</p>
+            </div>
+          
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+            
+            for (i = 0; i < acc.length; i++) {
+              acc[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var panel = this.nextElementSibling;
+                if (panel.style.display === "block") {
+                  panel.style.display = "none";
+                } else {
+                  panel.style.display = "block";
+                }
+              });
+            }
+            </script> 
+    </div>
+  </div>
+    <div class="infoblock"> <p><h3>Tham khảo source code <a href="">tại đây</a></h3></p></div>
+ <hr style="  border-top: 2px solid rgb(146, 146, 146);" >
+ 
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-lg-12">
+              <h style="font-size: 200%;">Cảm ơn các bạn đã đọc.</h> <br>
+              <h style="font-size: 200%;"> Chúc các bạn một ngày tốt lành!!</h>
+                <div class="breakblock"></div>
+                <a href="./index.html" class="btn btn-outline-dark btn-lg">Trang chủ</a>
+                <a href="./future.html" class="btn btn-info btn-lg">FUTURE</a>
+              
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-6">  </div>
+                <div class="col-md-6">
+                    <hr class="light">
+                    <h5>Authors</h5>
+                    <hr class="light">
+                    <p>Lê Văn Lâm</p>
+                    <p>Lê Trí Nguyên</p>
+                    <p>Đoàn Thảo Nhi</p>
+                    <p>Nguyễn Thành Tuân</p>
+                </div>
+                <hr class="light-100">
+                <div class="col-12">
+                    <h5>&copy; Team 74LS193</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
